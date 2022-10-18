@@ -11,7 +11,7 @@ function calculate() {
   const side = parseInt(document.getElementById("side-of-a-square").value)
 
   // process
-  const area = side^2
+  const area = side ^ 2
 
   // output
   document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
