@@ -8,11 +8,10 @@
  */
 function calculate() {
   // input
-  const base = parseInt(document.getElementById("base-of-triangle").value)
-  const height = parseInt(document.getElementById("height-of-triangle").value)
+  const side = parseInt(document.getElementById("side-of-a-square").value)
 
   // process
-  const area = (base * height) / 2
+  const area = side^2
 
   // output
   document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
