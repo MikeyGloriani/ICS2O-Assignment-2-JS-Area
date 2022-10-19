@@ -8,7 +8,7 @@
  */
 function calculate() {
   // input
-  const side = parseInt(document.getElementById("side-of-a-square").value)
+  const side = parseFloat(document.getElementById("side-of-a-square").value)
 
   // process
   const area = side ** 2
